@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+body {
+    direction: rtl;
+}
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+h1, h2, h3, p, li, a, ol, span {
+    font-family: 'Heebo', sans-serif !important;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*Design settings for the header including navigation menus*/
+
+header {
+    border-bottom: 1.5px solid cornflowerblue;
+}
+
+#LogoContainer {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+#openingline {
+    width: 960px;
+}
+
+header #Logo {
+    text-align: right;
+    display: inline-block;
+}
+
+header #MainText {
+    text-align: right;
+    font-size: 32px;
+    display: inline-block;
+}
+
+header #span {
+    color: #5F8D8D;
+}
+
+nav ul li a {
+    color: #004085;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav .Nav-One li .OpenNav {
+    display: none;
+    position: absolute;
+}
+
+nav .Nav-One li:hover > .OpenNav {
+    display: block;
+    width: 160px;
+    height:70px;
+    border: 2px solid black;
+    background-color:white;
+    text-align:right;
+    font-size:10pt;
+}
+
+ul.NavTwo li a {
+    color: #3757a4;
+}
+
+ul.NavTwo li {
+    color: #3757a4;
+    margin: 0px 50px;
+    padding: 5px;
+}
+
+ul.NavTwo {
+    background: ghostwhite;
+}
+
+ul.Nav-One {
+    background-color: #e5eec140;
+    width: 54%;
+    margin: 0 auto;
+    padding-right: 5px;
+    margin-bottom: 10px;
+}
+
+    ul.Nav-One li:after {
+        content: "|";
+        display: inline;
+        padding-right: 35px;
+    }
+
+    ul.Nav-One li:last-child:after {
+        content: none;
+    }
+
+nav ul li a:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration:none;
+}
+
+ul.Nav-One li:nth-child(1) {
+    background-image: url(../image/Icons/tree.png);
+    background-repeat: no-repeat;
+    background-size: 25px 24px;
+    background-position: 92px -2px;
+}
+
+ul.Nav-One li:nth-child(2) {
+    background-image: url(../image/Icons/beach.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 104px -2px;
+}
+
+ul.Nav-One li:nth-child(3) {
+    background-image: url(../image/Icons/city.png);
+    background-repeat: no-repeat;
+    background-size: 25px 24px;
+    background-position: 93px -1px;
+}
+
+ul.Nav-One li:nth-child(4) {
+    background-image: url(../image/Icons/suprprise.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 98px -2px;
+    padding-left: 35px;
+}
+
+p {
+    margin: 0px !important;
+}
+
+.Nav-One, .NavTwo {
+    text-align: center;
+}
+
+    nav ul li {
+        display: inline-block;
+        width: 125px;
+        padding-right: 25px;
+    }
+
+nav {
+    width: 100%;
+}
+
+h2 {
+    text-align: right;
+    padding: 7px;
+}
+
+#grass {
+    background-color: #fff8f0;
+    background-repeat: no-repeat;
+}
+
+#Footer {
+    background: ghostwhite;
+}
+
+#legendhide {
+    display: none;
+    position: absolute;
+}
+
+#information:hover + #legendhide {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: right;
+    display: inline-block;
+    width: 210px;
+    margin-right:-250px;
+    background-color:white;
+    z-index:1;
+}
+
+
+/*The carousel design settings on all pages include the home page*/
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-size: 60px 40px !important;
+    height: 53px !important;
+    width: 53px !important;
+    background-color: #495057 !important;
+    border-radius: 100px !important;
+}
+
+section.Katavot {
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    padding: 8px;
+}
+
+    section.Katavot p {
+        padding: 0px 55px;
+    }
+
+p.Icons-Text {
+    font-size: 10px;
+    padding:0 !important;
+}
+
+section.Katavot h3 {
+    background-color: #a3a3a3a3;
+    width: 60%;
+    margin-right: 60px;
+    font-size: 18px;
+    text-align: right;
+    padding: 3px;
+}
+
+div#IconGroup-One {
+    background: gainsboro;
+    width: 55%;
+    margin: 0 auto;
+}
+
+div#IconGroup-One  > div{
+    display:inline-block;
+}
+
+
+
+
+section .Katavot h3 {
+    background-image: url(../image/Icons/suprprise.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: 2px 0px;
+}
+
+h3.HCarousel {
+    background-color: #343a40;
+    width: 37%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+}
+
+/*The design settings for Contact Us*/ 
+
+label {
+    display: block !important;
+    margin-top: 10px;
+}
+
+input[type ='text'], textarea, select, subject {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    width: 150px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+
+/*About page design settings*/
+
+.imageDLN {
+    margin: 15px;
+}
+
+.about {
+    margin-top: 10px !important;
+}
+
+.aboutPage{
+    text-align:right;
+}
+
+#HITlogo {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    margin-left:955px;
+}
+
+
+.contact {
+    margin-top: 10px;
+}
+
+#listabout {
+    margin-right: 20px;
+}
+
+
+/*breadcrumbs menu design settings*/
+
+
+.breadcrumbs nav ul li {
+    display: inline-block;
+    width: 163px;
+    margin-right: -24px;
+    text-align: right;
+    padding-right: -25px !important;
+}
+
+.breadcrumbs nav ul li:after {
+    content: " > ";
+}
+
+.breadcrumbs nav ul li:last-child:after {
+        content: "";
+}
+
+#UL-Beard {
+    text-align: right !important;
+}
+
+/*Design settings for content pages*/ 
+
+.iconsh2 {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+#iconfood {
+    background-image: url('../image/Icons/foodicon40.png');
+    background-repeat:no-repeat;
+    background-position-x:right;
+    background-position-y:5px;
+}
+
+#iconcalendr {
+    background-image: url('../image/Icons/Calendaricon40.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 5px;
+}
+
+.MoreOptions {
+    display: inline-block;
+    height: 250px;
+    width: 250px;
+    margin-left:200px;
+}
+
+.textinlina {
+    display: inline-block;
+}
+
+.notActive {
+    color: grey;
+    cursor: not-allowed;
+}
+
+.imagefloat {
+    float: left;
+    margin-left: 50px;
+}
+
+.textafterfloat {
+    clear: both;
+}
+
+#cube {
+    position: absolute;
+    z-index: 1;
+    background-color: lightgray;
+    height: 350px;
+    width: 440px;
+    display: inline-block;
+}
+
+
+#carouselContent {
+    position:relative;
+}
+
+.imagNAV {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+.iconNAV {
+    display: inline-block;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.imageSources {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.bodycontent {
+    text-align: right;
+}
+
+.rtl {
+    text-align: right;
+}
+
+img.Acess{
+    margin-bottom:6px;
+}
+#Yam{
+    background-image: url(../image/Icons/beach.png);
+}
+#Ariel{
+    background-image: url(../image/Icons/suprprise.png);
+}
+#Mahne{
+    background-image: url(../image/Icons/city.png);
+}
+li > ul.Sub-Nav {
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    padding: 5px;
+    z-index: 50;
+}
+
+ul li:hover > ul.Sub-Nav {
+    display: block;
+    margin: 0 -43px;
+}
+
+ul.Sub-Nav > li {
+    display: block;
+    text-align: right;
+    color: black;
+    padding: 5px 10px;
+    background-color: white;
+    background-image:none !important;
+    margin: 5px;
+}
+
+ul.Sub-Nav > li::after {
+    content:none;
+}
+    /*Design settings for navigation pages*/
+    .navPhotos {
+    display: inline-block;
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left:10px;
+}
+
+.navInfo {
+    margin-bottom: 30px;
+}
+
+.navOptions {
+    background-color: lightgray;
+   
+}
+
+.topTitle {
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.navPage {
+    background-color: #fff8f0;
+    background-repeat: no-repeat;
+    text-align:right;
+}
+
+
+.navTop {
+    display: inline-block;
+    font-size: 24pt;
+}
+
+/*Design settings for map page*/
+#mapPage{
+    text-align:right;
+}
+
+.secondTitle{
+    font-size:16pt;
+    margin-top:5px;
+}
+/*icons for caousel*/
+#IconGroup-Two {
+    background: gainsboro;
+    width: 28%;
+    float: right;
+    margin: 0 auto;
+    color: black;
+}
+div#IconGroup-Two > div {
+    display: inline-block;
+}
+
+/*Design settings for accessibility*/
+.accessibility {
+    position: absolute;
+    left: -200px;
+    height: 10px;
+    width: 10px
+}
+
+#skip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    list-style: outside none;
+}
+
+    #skip li {
+        list-style-type: none
+    }
+
+    #skip a {
+        position: absolute;
+        left: -200px;
+        top: 30px;
+    }
+
+        #skip a:focus, #skip a:active {
+            position: relative;
+            left: 0;
+            z-index: 800;
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+            padding: 30px 45px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -4px !important;
+            font: bold 50px "Arial", "Freesans", sans-serif !important;
+            /* color information, edit this to suit the colors of your layout */
+            color: #AEAEFE;
+            background: transparent url(transparent.png) repeat scroll 0 0;
+            border: 1px dotted #ffb4db;
+        }
